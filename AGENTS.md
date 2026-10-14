@@ -1,0 +1,3 @@
+# Component instructions
+
+Read this README and the umbrella SPEC/contracts when available. Scope: Controlled Python coding/review target with defects, tests and task fixtures. English text/comments/interfaces. Preserve foreign changes and commit only owned changes after secret review. This is docs/scaffold only; do not invent dependencies, SDK APIs or success evidence. No external writes, model calls, credentials, Docker launch or push. Never import another component's private src tree. Runtime data stays in a configured ignored data root. Canonical sample checkout is never the target of automated mutations; use disposable copies.
