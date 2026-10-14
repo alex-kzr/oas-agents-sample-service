@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "fixture_id": "sample.discount",
+  "description": "Review why a ten-percent discount on a 100-unit order returns 100 instead of 90.",
+  "source": "src/sample_service/pricing.py",
+  "reproducer": "python -m unittest discover -s tests -v",
+  "expected_known_failure": "test_known_discount_defect",
+  "policy": "Operate on a disposable copy; never alter canonical checkout."
+}
